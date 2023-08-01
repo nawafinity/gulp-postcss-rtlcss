@@ -1,0 +1,36 @@
+{
+  "name": "gulp-postcss-rtlcss",
+  "version": "1.0.0",
+  "description": "Gulp plugin that uses RTLCSS to convert LTR CSS to RTL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": {
+    "name": "Nawaf Khalifah",
+    "email": "nawafinity@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nawafinity/gulp-postcss-rtlcss.git"
+  },
+  "keywords": [
+    "convert",
+    "css",
+    "gulpplugin",
+    "rtl",
+    "postcss-rtlcss"
+  ],
+  "dependencies": {
+    "plugin-error": "^2.0.1",
+    "postcss": "^8.4.27",
+    "postcss-rtlcss": "^4.0.6",
+    "through2": "^4.0.2",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "vinyl": "^3.0.0"
+  }
+}
