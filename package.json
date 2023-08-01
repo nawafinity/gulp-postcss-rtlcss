@@ -1,7 +1,7 @@
 {
   "name": "gulp-postcss-rtlcss",
   "version": "1.0.0",
-  "description": "Gulp plugin that uses RTLCSS to convert LTR CSS to RTL.",
+  "description": "Gulp plugin that uses POSTCSS-RTLCSS to convert LTR CSS to RTL.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
